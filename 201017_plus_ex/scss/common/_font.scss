@@ -1,0 +1,47 @@
+@charset "utf-8";
+
+/* SpoqaHanSans-Regular */
+@font-face {
+	font-family:'Spoqa Han Sans';
+	font-weight:400;
+	src:
+		url(../font/SpoqaHanSans-Regular.eot) format('embedded-opentype'),
+		url(../font/SpoqaHanSans-Regular.woff) format('woff'),
+		url(../font/SpoqaHanSans-Regular.ttf) format('truetype');
+}
+/* SpoqaHanSans-Bold */
+@font-face {
+	font-family:'Spoqa Han Sans';
+	font-weight:700;
+	src:
+		url(../font/SpoqaHanSans-Bold.eot) format('embedded-opentype'),
+		url(../font/SpoqaHanSans-Bold.woff) format('woff'),
+		url(../font/SpoqaHanSans-Bold.ttf) format('truetype');
+}
+/* Roboto-Regular */
+@font-face {
+	font-family:'Roboto';
+	font-weight:400;
+	src:
+		url(../font/Roboto-Regular.eot) format('embedded-opentype'),
+		url(../font/Roboto-Regular.woff) format('woff'),
+		url(../font/Roboto-Regular.ttf) format('truetype');
+}
+/* Roboto-Medium */
+@font-face {
+	font-family:'Roboto';
+	font-weight:500;
+	src:
+		url(../font/Roboto-Medium.eot) format('embedded-opentype'),
+		url(../font/Roboto-Medium.woff) format('woff'),
+		url(../font/Roboto-Medium.ttf) format('truetype');
+}
+/* Roboto-Bold */
+@font-face {
+	font-family:'Roboto';
+	font-weight:700;
+	src:
+		url(../font/Roboto-Bold.eot) format('embedded-opentype'),
+		url(../font/Roboto-Bold.woff) format('woff'),
+		url(../font/Roboto-Bold.ttf) format('truetype');
+}

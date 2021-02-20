@@ -1,0 +1,46 @@
+
+
+// 호버 only
+@mixin mediaOnlyHover {
+  @media (hover:hover) {
+    @content;
+  }
+}
+
+// 태블릿 공통
+@mixin media1279 {
+  @media (max-width:1279px) {
+    @content;
+  }
+}
+
+// 1023 까지 처리해야할 것.
+@mixin media1023 {
+  @media (max-width:1023px) {
+    @content;
+  }
+}
+
+// 모바일 공통
+@mixin media767 {
+  @media (max-width:767px) {
+    @content;
+  }
+}
+
+
+// 태블릿
+@media (max-width:1199px) {
+
+}
+
+
+// only 320
+@media (width:320px) {
+
+}
+
+// 320 미만
+@media (max-width:319px) {
+
+}

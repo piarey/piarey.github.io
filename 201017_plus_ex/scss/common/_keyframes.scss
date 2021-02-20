@@ -1,0 +1,36 @@
+
+
+@keyframes fadein_header_white {
+    0% {
+        opacity:0;
+    }
+    100% {
+        opacity:1;
+    }
+}
+@keyframes fadeout_header_white {
+    0% {
+        opacity:1;
+    }
+    100% {
+        opacity:0;
+    }
+}
+
+@keyframes ani_banner_flow {
+    0% {
+        transform:translateX(0);
+    }
+    100% {
+        transform:translateX(-33.33%);
+    }
+}
+
+@keyframes ani_design_flow {
+    0% {
+        transform:translateX(0);
+    }
+    100% {
+        transform:translateX(-50%);
+    }
+}

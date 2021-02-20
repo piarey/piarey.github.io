@@ -1,0 +1,69 @@
+@charset "utf-8";
+
+/*
+    ver : 1
+    반응형, only PC, only MO 각각 미세하게 차이가 있을 순 있으나 별 차이 없으므로 하나로 묶음.
+*/
+body,
+h1,h2,h3,h4,h5,h6,
+p,ul,ol,li,dl,dt,dd,
+form,fieldset,legend,
+input,button,select,textarea {
+    // user agent stylesheet 초기화.
+    margin:0; padding:0;
+}
+body,input,button,select,textarea,table {
+    // 사이트 메인 폰트 설정.
+    font-family:'Roboto',Roboto,'Spoqa Han Sans',Spoqa Han Sans,sans-serif;
+    // user agent stylesheet 초기화.
+    font-size:inherit;
+    line-height:inherit;
+    color:#000;
+}
+input,button,select,textarea {
+    // user agent stylesheet 초기화.
+    border:none;
+    background-color:transparent;
+    font-size:inherit;
+    -webkit-appearance:none;
+    appearance:none;
+    vertical-align: top;
+}
+img,iframe,video {
+    vertical-align:top;
+}
+img,fieldset {
+    border:none;
+}
+ul,ol {
+    list-style-type:none;
+}
+em,address {
+    font-style:normal;
+}
+a {
+    color:inherit;
+    text-decoration:none;
+}
+table {
+    // 테이블은 separate 기반으로 만들어야 정확하며 세부조절하기 편함.
+    border-collapse:separate;
+    border-spacing:0;
+}
+.blind {
+    // 유명한 IR 기법.
+    overflow:hidden;
+    position:absolute;
+    width:1px;
+    height:1px;
+    margin:-1px;
+    clip:rect(0,0,0,0);
+}
+html {
+    // iOS 에서 가로모드, 세로모드 전환 시 자동으로 폰트크기 조절하는 기능 해제.
+    -webkit-text-size-adjust:none;
+}
+button {
+    // PC 에서 버튼에 대한 기본 설정.
+    cursor:pointer;
+}
